@@ -32,6 +32,11 @@ header{
   color: white;
   font-size: 17px;
   font-weight: 700;
+  transition: 0.2s;
+}
+
+#menu li:hover{
+  color: #1abc9c;
 }
 /* fine header */
 
@@ -141,6 +146,21 @@ header{
   border-radius: 5%;
   margin-bottom: 30px;
 }
+
+.portfolio .row .overlay-img{
+  z-index: 9998;
+  background-color: #ecf0f110;
+  width: 360px;
+  height: 260px;
+  position: absolute;
+  border-radius: 5%;
+  transition: 0.3s;
+}
+
+.portfolio .row .overlay-img:hover{
+  cursor: pointer;
+  background: #1abc9c95;
+}
 /* fine sezione PORTFOLIO */
 
 /* sezion ABOUT */
@@ -205,6 +225,7 @@ header{
   text-decoration: none;
   color: white;
   border-radius: 10px;
+  transition: 0.3s;
 }
 
 .row-three a:hover{
@@ -282,7 +303,7 @@ header{
   text-decoration: none;
   color: white;
   border-radius: 10px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .contact-me .row-two button:hover{
@@ -319,10 +340,17 @@ footer .container-fluid.one .col-sm-4 i{
   border: 3px solid white;
   border-radius: 100px;
   margin-right: 5px;
+  transition: 0.3s;
 }
 
 footer .container-fluid.one .col-sm-4 i#fcb{
   padding: 15px 18px;
+}
+
+footer .container-fluid.one .col-sm-4 i:hover{
+  background-color: white;
+  color: #2c3e50;
+  cursor: pointer;
 }
 /* fine prima parte footer */
 
