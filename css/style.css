@@ -155,11 +155,16 @@ header{
   position: absolute;
   border-radius: 5%;
   transition: 0.3s;
+  color: #dddddd00;
+  line-height: 260px;
+  font-size: 150px;
+  font-weight: 700;
 }
 
 .portfolio .row .overlay-img:hover{
   cursor: pointer;
   background: #1abc9c95;
+  color: #dddddd;
 }
 /* fine sezione PORTFOLIO */
 
