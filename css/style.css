@@ -97,6 +97,7 @@ header{
   font-size: 45px;
   font-weight: 700;
   padding-top: 50px;
+  letter-spacing: 2px;
 }
 
 .portfolio .container .line-one{
@@ -123,14 +124,83 @@ header{
   padding-bottom: 40px;
 }
 
+.portfolio .row{
+  padding-bottom: 50px;
+}
+
 .portfolio .row img{
   width: 360px;
   border-radius: 5%;
   margin-bottom: 30px;
 }
-
-
-
-
-
 /* fine sezione PORTFOLIO */
+
+/* sezion ABOUT */
+.about{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.about .row-one{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.about h2{
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.about .symbols{
+  height: 40px;
+}
+
+.about .symbols .line-one{
+  float: left;
+}
+
+.about .symbols .line-two{
+  float: right;
+}
+
+.about .symbols .line-one,
+.about .symbols .line-two{
+  height: 3px;
+  width: 35%;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.about .symbols i{
+  font-size: 30px;
+}
+
+.row-two{
+  padding-top: 65px;
+}
+
+.row-two p{
+  font-size: 20px;
+}
+
+.row-three .col-sm-4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.row-three a{
+  padding: 20px 30px;
+  background-color: none;
+  border: 2px solid white;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.row-three a:hover{
+  background-color: white;
+  color: #2c3e50;
+}
+/* fine sezion ABOUT */
