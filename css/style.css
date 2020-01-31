@@ -182,14 +182,22 @@ header button{
 .portfolio .row img{
   width: 360px;
   border-radius: 5%;
-  margin-bottom: 30px;
+}
+
+.portfolio .row .col-xs-12{
+  padding-bottom: 30px;
+}
+
+.portfolio .row .col-xs-12 .content{
+  position: relative;
+  width: 360px;
 }
 
 .portfolio .row .overlay-img{
   z-index: 9998;
   background-color: #ecf0f110;
-  width: 360px;
-  height: 260px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   border-radius: 5%;
   transition: 0.3s;
@@ -197,6 +205,10 @@ header button{
   line-height: 260px;
   font-size: 150px;
   font-weight: 700;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
 }
 
 .portfolio .row .overlay-img:hover{
